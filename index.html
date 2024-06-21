@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event List</title>
+    <link href="./index.css" rel="stylesheet"/>
+</head>
+<body>
+    <main id="event-list-app">
+        <button class="add-new-event">Add New Event</button>
+        <table class="event-table">
+            <tr class="event-table-header">
+                <th>Event</th>
+                <th>Start</th>
+                <th>End</th>
+                <th>Action</th>
+            </tr>
+            <!--<tr class="event-table-data">
+                <td><input class="event-table__event" required></td>
+                <td><input type="date" class="event-table__start"></td>
+                <td><input type="date" class="event-table__end"></td>
+                <td><button class="event-table__edit">Edit</button>
+                    <button class="event-table__delete">Delete</button>
+                </td> -->
+            </tr>
+        </table>
+    </main>
+    
+    <script src="./api/eventlistAPI.js"></script>
+    <script src="./features/eventlistView.js"></script>
+    <script src="./features/eventlistModel.js"></script>
+    <script src="./features/eventlistController.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
